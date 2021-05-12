@@ -12,12 +12,18 @@ export default function Banner () {
 
 const DivBanner = styled.div`
 
-   width: 720px;
-   height: 360px;
-   align-items: center;
-   margin: 0 auto;
-   justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    //border: 4px solid red;
+    height: 420px;
+    position: relative;
+   // overflow: hidden;
 
 
+  div > img {
+      width: 1120px;
+      height: 420px;
+   }
 
 `
