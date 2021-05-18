@@ -1,9 +1,9 @@
 import './App.css';
 
 //import MyButton from './components/button'
-import Header from './components/Header/Header'
-import Banner from './components/Banner/Banner'
-import Filter from './components/Filter/index'
+import Header from './components/Header'
+import Banner from './components/Banner'
+import Filter from './components/Filter'
 
 function App() {
   return (
