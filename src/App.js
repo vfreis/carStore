@@ -1,18 +1,26 @@
 import './App.css';
-
-//import MyButton from './components/button'
+import styled from 'styled-components'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Filter from './components/Filter'
+import ListCars from './components/ListCars'
 
-function App() {
+export default function App() {
   return (
     <>
       <Header/>
       <Banner/>
-      <Filter/>
+      <Container>
+        <Filter />
+        <ListCars />
+      </Container>
+      
     </>
   )
 }
-
-export default App;
+const Container = styled.div`
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px
+`

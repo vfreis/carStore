@@ -16,5 +16,4 @@ const DivBanner = styled.div`
     img {
         width: 100%;
     }
-
 `
