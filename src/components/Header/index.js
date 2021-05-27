@@ -19,9 +19,8 @@ const Container = styled.div`
    display: flex;
    justify-content: space-between;
    align-items: center;
-   font-family: 'Times New Roman', Times, serif;    
+   font-family: 'Roboto', sans-serif;
    color: #666;
-
     .list {
         list-style-type: none;
         display: flex;
@@ -33,9 +32,7 @@ const Container = styled.div`
         cursor: pointer; 
         border-bottom: 2px solid transparent;
     }
-
     .item:hover {
         color: #666;
         border-bottom: 2px solid #666;
-    }
-`
+    }`

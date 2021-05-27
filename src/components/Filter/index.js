@@ -30,7 +30,7 @@ const DivFilter = styled.div`
 
     display: flex;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;    
+    font-family: 'Roboto', sans-serif; 
     color: #666;
 
     .filter > input {
