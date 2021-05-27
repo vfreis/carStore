@@ -19,7 +19,6 @@ const DivBanner = styled.div`
     //border: 4px solid red;
     height: 420px;
     position: relative;
-   // overflow: hidden;
 
 
   /* div > img {

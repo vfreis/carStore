@@ -19,9 +19,9 @@ export default function Filter () {
             <input placeholder="Digite aqui a quilometragem"></input>
             <button>buscar</button>
         </div>
-        <div className="cardbox">
+        {/* <div className="cardbox">
             <h1>Lista de carros</h1>
-        </div>
+        </div> */}
         </DivFilter>
         )
     }
